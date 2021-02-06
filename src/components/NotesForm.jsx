@@ -29,7 +29,7 @@ const NotesForm = () => {
           onChange={e => setTitle(e.target.value)}
         />
         <button type="submit" className="btn btn-success btn-lg rounded">
-          Add
+          Add Note
         </button>
       </form>
       {err && (
