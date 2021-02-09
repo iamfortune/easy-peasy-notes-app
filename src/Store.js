@@ -18,3 +18,5 @@ export default {
     state.notes = state.notes.filter((note) => note.id !== id);
   })
 };
+
+
